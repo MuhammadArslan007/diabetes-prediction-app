@@ -13,7 +13,15 @@ st.markdown(
     """
 )
 
-st.sidebar.title("Sample Images")
+# Sidebar - About Me
+st.sidebar.header('About Me')
+st.sidebar.write("**Name:** Muhammad Arslan")
+st.sidebar.write("**Email:** [arslan.au189@gmail.com](mailto:arslan.au189@gmail.com)")
+st.sidebar.write("**GitHub:** [MuhammadArslan007](https://github.com/MuhammadArslan007)")
+
+
+
+st.sidebar.subheader("Sample Images")
 st.sidebar.markdown("You can either upload your own image or select a sample image:")
 
 
